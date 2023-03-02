@@ -5,10 +5,6 @@
     output = 'test output please ignore'
 
     print(output)
-
-    for c in output:
-        pass
-
     cog.outl('// ' + output)
 ]]] */
 // test output please ignore

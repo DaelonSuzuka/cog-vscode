@@ -38,6 +38,6 @@
 		"esbuild": "^0.15.2",
 		"tslint": "^5.20.1",
 		"typescript": "^3.5.1",
-		"vsce": "^2.10.0"
+		"@vscode/vsce": "^2.10.0"
 	}
 }

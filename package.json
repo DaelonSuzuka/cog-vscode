@@ -1,7 +1,7 @@
 {
     "name": "cog",
-	"displayName": "COG Highlighter",
-    "version": "0.1.0",
+	"displayName": "Cog Highlighter",
+    "version": "0.1.1",
 	"description": "Language support for the Cog code-generation tool",
     "repository": {
 		"type": "git",

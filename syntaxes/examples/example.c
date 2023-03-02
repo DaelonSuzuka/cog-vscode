@@ -1,16 +1,7 @@
-// This is a Cog block
 /* [[[cog
-    # this is python
+	print('hello from python!')
 
-    output = 'test output please ignore'
-
-    print(output)
-    cog.outl('// ' + output)
+    cog.outl('printf("hello from C!");')
 ]]] */
-// test output please ignore
+printf("hello from C!");
 /* [[[end]]] */
-
-// This is C code
-void main(void) {
-    //
-}

@@ -1,0 +1,12 @@
+{
+	"cog block": {
+		"prefix": "cog",
+		"description": "cog code generator block",
+		"body": [
+			"/* [[[cog",
+			"    cog.outl(${1})",
+			"]]] */",
+			"/* [[[end]]] */"
+		]
+	}
+}

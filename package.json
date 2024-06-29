@@ -17,6 +17,28 @@
 		"vscode": "^1.68.0"
 	},
 	"contributes": {
+		"snippets": [
+			{
+				"language": "c",
+				"path": "./snippets/c_style.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/c_style.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/c_style.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/c_style.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/md.json"
+			}
+		],
 		"grammars": [
 			{
 				"scopeName": "source.cog.injection",

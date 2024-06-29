@@ -1,7 +1,7 @@
 /* [[[cog
     print('hello from python!')
 
-    cog.outl('printf("hello from C++!");')
+    cog.outl('std::cout << "hello from C++!";')
 ]]] */
-printf("hello from C++!");
+std::cout << "hello from C++!";
 /* [[[end]]] */

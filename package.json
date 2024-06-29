@@ -1,36 +1,39 @@
 {
-    "name": "cog",
+	"name": "cog",
 	"displayName": "Cog Highlighter",
-    "version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Language support for the Cog code-generation tool",
-    "repository": {
+	"repository": {
 		"type": "git",
 		"url": "https://github.com/daelonsuzuka/cog-vscode"
 	},
 	"bugs": {
 		"url": "https://github.com/daelonsuzuka/cog-vscode/issues"
 	},
-    "license": "MIT",
+	"license": "MIT",
 	"author": "DaelonSuzuka",
 	"publisher": "DaelonSuzuka",
 	"engines": {
 		"vscode": "^1.68.0"
 	},
-    "contributes": {
-        "grammars": [
-            {
-                "scopeName": "cog.injection",
-                "path": "./syntaxes/cog.tmLanguage.json",
-                "injectTo": [
-                    "source.c",
-                    "source.cpp"
-                ],
-                "embeddedLanguages": {
-                    "meta.embedded.cog": "python"
-                }
-            }
-        ]
-    },
+	"contributes": {
+		"grammars": [
+			{
+				"scopeName": "source.cog.injection",
+				"path": "./syntaxes/cog.tmLanguage.json",
+				"injectTo": [
+					"source.c",
+					"source.cpp",
+					"source.js",
+					"source.ts",
+					"text.html.markdown"
+				],
+				"embeddedLanguages": {
+					"meta.embedded.cog": "python"
+				}
+			}
+		]
+	},
 	"devDependencies": {
 		"@vscode/vsce": "^2.10.0"
 	}

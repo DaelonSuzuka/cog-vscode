@@ -1,21 +1,13 @@
 {
-    "scopeName": "cog.injection",
-    "injectionSelector": "comment",
-    "patterns": [
-        {
-            "contentName": "meta.embedded.source.python",
-            "begin": "(\\[\\[\\[)",
-            "end": "(]]])",
-            "captures": {
-                "0": {
-                    "name": "keyword.control.flow.python"
-                }
-            },
-            "patterns": [
-                {
-                    "include": "source.python"
-                }
-            ]
-        }
-    ]
+	"scopeName": "source.cog.injection",
+	"injectionSelector": "comment",
+	"patterns": [
+		{
+			"contentName": "meta.embedded.source.python",
+			"begin": "(\\[\\[\\[)",
+			"end": "(]]])",
+			"captures": { "0": { "name": "keyword.control.flow.python" } },
+			"patterns": [ { "include": "source.python" } ]
+		}
+	]
 }

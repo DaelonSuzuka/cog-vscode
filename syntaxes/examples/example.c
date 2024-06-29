@@ -1,5 +1,5 @@
 /* [[[cog
-	print('hello from python!')
+    print('hello from python!')
 
     cog.outl('printf("hello from C!");')
 ]]] */
